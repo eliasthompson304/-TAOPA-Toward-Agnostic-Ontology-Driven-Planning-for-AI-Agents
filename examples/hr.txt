@@ -1,0 +1,1 @@
+Recruiters conduct candidate screenings. Candidate screenings produce screening reports, require job descriptions, and accept candidate applications as inputs.

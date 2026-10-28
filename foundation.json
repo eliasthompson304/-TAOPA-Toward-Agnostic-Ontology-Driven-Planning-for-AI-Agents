@@ -1,0 +1,19 @@
+{
+  "classes": [
+    {"name": "Thing", "description": "The root of all types.", "foundation": true, "source_file": null, "evidence": null},
+    {"name": "Entity", "description": "A thing that is not an action.", "foundation": true, "source_file": null, "evidence": null},
+    {"name": "Value", "description": "A value, such as a number or a piece of text.", "foundation": true, "source_file": null, "evidence": null},
+    {"name": "InformationObject", "description": "Information, such as a report, document, or checklist.", "foundation": true, "source_file": null, "evidence": null},
+    {"name": "PhysicalObject", "description": "A physical thing, such as a tool or a machine.", "foundation": true, "source_file": null, "evidence": null},
+    {"name": "Agent", "description": "A person, group, or system that can perform actions.", "foundation": true, "source_file": null, "evidence": null},
+    {"name": "Action", "description": "An activity performed by an agent.", "foundation": true, "source_file": null, "evidence": null}
+  ],
+  "relationships": [
+    {"source": "Entity", "predicate": "subClassOf", "target": "Thing", "source_file": null, "evidence": null},
+    {"source": "Value", "predicate": "subClassOf", "target": "Entity", "source_file": null, "evidence": null},
+    {"source": "InformationObject", "predicate": "subClassOf", "target": "Entity", "source_file": null, "evidence": null},
+    {"source": "PhysicalObject", "predicate": "subClassOf", "target": "Entity", "source_file": null, "evidence": null},
+    {"source": "Agent", "predicate": "subClassOf", "target": "Entity", "source_file": null, "evidence": null},
+    {"source": "Action", "predicate": "subClassOf", "target": "Thing", "source_file": null, "evidence": null}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "status": "not reviewed",
+  "reviewer": "",
+  "reference_creation_minutes": null,
+  "review_minutes": null,
+  "correction_minutes": null,
+  "expected_classes": null,
+  "expected_classes_recovered": null,
+  "missing_classes": [],
+  "wrong_parents": [],
+  "wrong_relationships": [],
+  "duplicate_concepts": [],
+  "skipped_concepts_to_revisit": [],
+  "rejected_proposals_to_review": [],
+  "corrections": {
+    "classes_created": null,
+    "classes_deleted": null,
+    "classes_reparented": null,
+    "relationships_changed": null
+  },
+  "question_checks": [
+    {"question": "Which agent type performs the main action?", "answer": "", "correct": null},
+    {"question": "Which report type can that action produce?", "answer": "", "correct": null}
+  ],
+  "notes": "Fill this out after human review. Null means unmeasured, not zero. Keep a separate corrected_graph.json; do not edit generated output."
+}
